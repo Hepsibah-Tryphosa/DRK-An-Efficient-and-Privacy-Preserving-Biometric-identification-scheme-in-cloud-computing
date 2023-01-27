@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+    <servlet>
+        <servlet-name>InsertDataAction</servlet-name>
+        <servlet-class>com.biometric.actions.InsertDataAction</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>o_InsertDataAction</servlet-name>
+        <servlet-class>com.biometric.actions.o_InsertDataAction</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>OBioIdentiryAction</servlet-name>
+        <servlet-class>com.biometric.actions.OBioIdentiryAction</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UBioIdentiryAction</servlet-name>
+        <servlet-class>com.biometric.actions.UBioIdentiryAction</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>o_InsertImageAction</servlet-name>
+        <servlet-class>com.biometric.actions.o_InsertImageAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InsertDataAction</servlet-name>
+        <url-pattern>/InsertDataAction</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>o_InsertDataAction</servlet-name>
+        <url-pattern>/o_InsertDataAction</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>OBioIdentiryAction</servlet-name>
+        <url-pattern>/OBioIdentiryAction</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UBioIdentiryAction</servlet-name>
+        <url-pattern>/UBioIdentiryAction</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>o_InsertImageAction</servlet-name>
+        <url-pattern>/o_InsertImageAction</url-pattern>
+    </servlet-mapping>
+</web-app>
